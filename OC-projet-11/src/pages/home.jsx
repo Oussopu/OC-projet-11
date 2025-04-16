@@ -1,9 +1,20 @@
+import React from 'react';
+import Banner from '../components/banner.jsx';
+import CardsContainer from '../components/cards-container.jsx';
+import properties from '../services/api.js';
+import bannerImage from '../assets/images/banner.svg';
+
 function Home() {
   return (
     <div>
-      <h1>Accueil 🏠</h1>
+      <Banner
+        imageSrc={bannerImage}
+        altText="image d'un décor de montagne"
+        title="Chez vous, partout et ailleurs"
+      />
+      <CardsContainer properties={properties} />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
