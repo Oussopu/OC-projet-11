@@ -6,7 +6,7 @@ function Banner({ imageSrc, altText, title }) {
     <div className="banner">
       <div className="filter-banner"></div>
       <img src={imageSrc} alt={altText} />
-      {title && <h2>{title}</h2>}
+      {title && <h1>{title}</h1>}
     </div>
   );
 }
