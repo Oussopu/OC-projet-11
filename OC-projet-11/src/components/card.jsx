@@ -6,7 +6,7 @@ function Card({ property }) {
     <div className="card">
       <div className="filter-card"></div>
       <img src={property.cover} alt={property.title} />
-      <h3>{property.title}</h3>
+      <h2>{property.title}</h2>
     </div>
   );
 }
