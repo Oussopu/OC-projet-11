@@ -1,6 +1,6 @@
-import React from 'react';
-import '../assets/styles/cards-container.css';
-import Card from './Card';
+import React from 'react'
+import '../assets/styles/cards-container.css'
+import Card from './Card'
 
 function CardsContainer({ properties }) {
   return (
@@ -9,7 +9,7 @@ function CardsContainer({ properties }) {
         <Card key={property.id} property={property} />
       ))}
     </div>
-  );
+  )
 }
 
-export default CardsContainer;
+export default CardsContainer

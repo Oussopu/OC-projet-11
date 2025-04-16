@@ -1,5 +1,5 @@
-import React from 'react';
-import '../assets/styles/banner.css';
+import React from 'react'
+import '../assets/styles/banner.css'
 
 function Banner({ imageSrc, altText, title }) {
   return (
@@ -8,7 +8,7 @@ function Banner({ imageSrc, altText, title }) {
       <img src={imageSrc} alt={altText} />
       {title && <h1>{title}</h1>}
     </div>
-  );
+  )
 }
 
-export default Banner;
+export default Banner

@@ -1,5 +1,5 @@
-import React from 'react';
-import '../assets/styles/card.css';
+import React from 'react'
+import '../assets/styles/card.css'
 
 function Card({ property }) {
   return (
@@ -8,7 +8,7 @@ function Card({ property }) {
       <img src={property.cover} alt={property.title} />
       <h2>{property.title}</h2>
     </div>
-  );
+  )
 }
 
-export default Card;
+export default Card

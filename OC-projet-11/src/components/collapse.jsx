@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import "../assets/styles/collapse.scss";
-import logo from '../assets/images/arrow.svg';
+import React, { useState } from 'react'
+import '../assets/styles/collapse.scss'
+import logo from '../assets/images/arrow.svg'
 
 function Collapse({ title, content }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   const toggleCollapse = () => {
-    setIsOpen(!isOpen);
-  };
+    setIsOpen(!isOpen)
+  }
 
   return (
     <div className="collapse">
@@ -29,7 +29,7 @@ function Collapse({ title, content }) {
         </div>
       )}
     </div>
-  );
+  )
 }
 
-export default Collapse;
+export default Collapse
