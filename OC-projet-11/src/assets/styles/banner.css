@@ -1,0 +1,33 @@
+.banner {
+  height: 223px;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+.banner .filter-banner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  background-color: black;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner h2 {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=banner.css.map */
