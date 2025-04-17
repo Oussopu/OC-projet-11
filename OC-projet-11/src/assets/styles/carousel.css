@@ -1,0 +1,37 @@
+.carousel {
+  position: relative;
+  height: 415px;
+  width: 100%;
+}
+.carousel .carousel-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.carousel .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.carousel .carousel-button.left {
+  left: 20px;
+}
+.carousel .carousel-button.right {
+  right: 20px;
+}
+.carousel .carousel-counter {
+  font-size: 18px;
+  position: absolute;
+  font-weight: bold;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  color: white;
+}
+
+/*# sourceMappingURL=carousel.css.map */

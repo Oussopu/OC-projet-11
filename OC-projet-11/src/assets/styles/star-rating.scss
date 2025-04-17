@@ -1,0 +1,14 @@
+.star-rating {
+  display: flex;
+  margin-bottom: 10px;
+
+  .star {
+    display: inline-block;
+    margin-left: 15px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

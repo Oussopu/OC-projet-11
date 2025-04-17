@@ -1,0 +1,79 @@
+.property-container {
+  width: 84%;
+  margin: 0 8%;
+}
+.property-container .property-info {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.property-container .property-info .property-info-location h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ff6060;
+  padding-bottom: 10px;
+}
+.property-container .property-info .property-info-location p {
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.property-container .property-info .property-info-location .property-tags .tag {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #ff6060;
+  color: white;
+  padding: 2px 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.property-container .property-info .property-info-host {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.property-container
+  .property-info
+  .property-info-host
+  .property-info-host-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: end;
+  margin-bottom: 20px;
+}
+.property-container
+  .property-info
+  .property-info-host
+  .property-info-host-name
+  h2 {
+  width: 50%;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ff6060;
+}
+.property-container
+  .property-info
+  .property-info-host
+  .property-info-host-name
+  img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.property-container .property-adds-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.property-container .property-adds-info .collapse {
+  width: 47%;
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=property.css.map */
