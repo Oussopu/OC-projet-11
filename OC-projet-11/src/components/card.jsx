@@ -1,12 +1,15 @@
 import React from 'react'
 import '../assets/styles/card.css'
 
-function Card({ property }) {
+function Card({ property, onCardClick }) {
+  const handleClick = () => {
+    onCardClick(property.id)
+  }
+
   return (
-    <div className="card">
-      <div className="filter-card"></div>
+    <div className="card" onClick={handleClick}>
       <img src={property.cover} alt={property.title} />
-      <h2>{property.title}</h2>
+      <h3>{property.title}</h3>
     </div>
   )
 }
