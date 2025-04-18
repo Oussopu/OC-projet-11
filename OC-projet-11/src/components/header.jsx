@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom'
 import React, { useEffect } from 'react'
 import logo from '../assets/images/logo.svg'
 import '../assets/styles/header.css'
+import '../assets/media-styles/headerMedia.scss'
 
 function Header() {
   const location = useLocation()

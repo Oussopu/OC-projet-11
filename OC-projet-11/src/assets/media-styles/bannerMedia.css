@@ -1,0 +1,28 @@
+@media (max-width: 480px) {
+  .banner {
+    height: 111px;
+    width: 90%;
+    margin: 0 5% 40px 5%;
+  }
+  .banner h1 {
+    width: 54%;
+    text-align: left;
+    left: 33%;
+    font-size: 24px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner h1 {
+    width: 86%;
+    text-align: left;
+    left: 50%;
+    font-size: 36px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner h1 {
+    font-size: 38px;
+  }
+}
+
+/*# sourceMappingURL=bannerMedia.css.map */
