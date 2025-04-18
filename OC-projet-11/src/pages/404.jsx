@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/styles/404.css'
+import '../assets/media-styles/404Media.scss'
 
 function Error() {
   return (

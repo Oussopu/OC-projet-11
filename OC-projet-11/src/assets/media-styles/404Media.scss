@@ -1,0 +1,47 @@
+@media (max-width: 480px) {
+  .error-content {
+    gap: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+    h1 {
+      font-size: 96px;
+    }
+
+    h2 {
+      width: 55%;
+      font-size: 18px;
+    }
+
+    a {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .error-content {
+    gap: 100px;
+    padding-bottom: 100px;
+    h1 {
+      font-size: 140px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1119px) {
+  .error-content {
+    gap: 40px;
+    padding-bottom: 40px;
+    h1 {
+      font-size: 140px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+  }
+}
