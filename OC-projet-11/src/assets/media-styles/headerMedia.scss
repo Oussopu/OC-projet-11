@@ -1,0 +1,32 @@
+@media (max-width: 480px) {
+  .App-header {
+    padding-left: 5%;
+    padding-right: 5%;
+    img {
+      width: 145px;
+      height: 47px;
+    }
+    nav {
+      width: 70%;
+      a {
+        font-size: 12px;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .App-header {
+    img {
+      width: 145px;
+      height: 47px;
+    }
+    nav {
+      width: 70%;
+      a {
+        padding-left: 20px;
+      }
+    }
+  }
+}

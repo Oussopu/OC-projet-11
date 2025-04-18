@@ -1,7 +1,6 @@
 .card {
-  background-color: Orange;
   height: 340px;
-  width: 340px;
+  width: 27.5%;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -21,7 +20,7 @@
 }
 .card h3 {
   position: absolute;
-  width: 60%;
+  width: 80%;
   bottom: 20px;
   left: 20px;
   color: #ffffff;

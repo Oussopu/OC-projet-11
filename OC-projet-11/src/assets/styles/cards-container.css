@@ -5,10 +5,10 @@
   border-radius: 25px;
   background-color: #f6f6f6;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 45px;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 /*# sourceMappingURL=cards-container.css.map */

@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+  .App-footer {
+    justify-content: center;
+  }
+  .App-footer p {
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .App-footer {
+    justify-content: center;
+  }
+  .App-footer p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=footerMedia.css.map */

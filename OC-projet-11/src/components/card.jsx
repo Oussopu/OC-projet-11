@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/styles/card.css'
+import '../assets/media-styles/cardMedia.scss'
 
 function Card({ property, onCardClick }) {
   const handleClick = () => {

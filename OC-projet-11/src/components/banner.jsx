@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/styles/banner.css'
+import '../assets/media-styles/bannerMedia.scss'
 
 function Banner({ imageSrc, altText, title }) {
   return (
