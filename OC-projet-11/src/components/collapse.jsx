@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../assets/styles/collapse.scss'
+import '../assets/media-styles/collapseMedia.scss'
 import logo from '../assets/images/arrow.svg'
 
 function Collapse({ title, content }) {
