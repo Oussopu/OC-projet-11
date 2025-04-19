@@ -1,0 +1,120 @@
+@media (max-width: 480px) {
+  .property-container {
+    width: 90%;
+    margin: 0 5%;
+    .property-info {
+      width: 100%;
+      margin: 15px 0 0 0;
+      flex-direction: column;
+      .property-info-location {
+        h1 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 14px;
+          padding-bottom: 10px;
+        }
+        .property-tags {
+          .tag {
+            font-size: 10px;
+            padding: 2px 10px;
+          }
+        }
+      }
+      .property-info-host {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        .property-info-host-name {
+          margin-top: 18px;
+          h2 {
+            margin-right: 15px;
+            font-size: 12px;
+          }
+          img {
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+    }
+    .property-adds-info {
+      flex-direction: column;
+      width: 100%;
+      .collapse {
+        h1 {
+          font-size: 13px;
+        }
+        width: 100%;
+        margin: 0 0 25px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .property-container {
+    .property-info {
+      margin: 25px 0 0 0;
+      flex-direction: column;
+      .property-info-location {
+        h1 {
+          font-size: 24px;
+        }
+        p {
+          padding-bottom: 20px;
+        }
+        .property-tags {
+          .tag {
+            padding: 2px 10px;
+          }
+        }
+      }
+      .property-info-host {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        .property-info-host-name {
+          margin-top: 18px;
+        }
+      }
+    }
+    .property-adds-info {
+      flex-direction: column;
+      width: 100%;
+      .collapse {
+        width: 100%;
+        margin: 0 0 25px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1119px) {
+  .property-container {
+    .property-info {
+      .property-info-location {
+        h1 {
+          font-size: 32px;
+        }
+        .property-tags {
+          .tag {
+            padding: 2px 10px;
+          }
+        }
+      }
+      .property-info-host {
+        .property-info-host-name {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .property-adds-info {
+      .collapse {
+        h1 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

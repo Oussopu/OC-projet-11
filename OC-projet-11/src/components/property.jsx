@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/styles/property.scss'
+import '../assets/media-styles/propertyMedia.scss'
 import Carousel from '../components/carousel.jsx'
 import Collapse from '../components/collapse.jsx'
 import StarRating from '../components/star-rating.jsx'

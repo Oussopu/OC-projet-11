@@ -1,0 +1,26 @@
+@media (max-width: 480px) {
+  .star-rating {
+    margin-bottom: 0;
+  }
+  .star-rating .star {
+    margin: 0 15px 0 0;
+  }
+  .star-rating .star img {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .star-rating {
+    margin-bottom: 0;
+  }
+  .star-rating .star {
+    margin: 0 15px 0 0;
+  }
+  .star-rating .star img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/*# sourceMappingURL=startRatingMedia.css.map */

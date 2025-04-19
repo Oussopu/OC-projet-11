@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/styles/star-rating.scss'
+import '../assets/media-styles/startRatingMedia.scss'
 import star from '../assets/images/star.svg'
 import starFilled from '../assets/images/star-filled.svg'
 

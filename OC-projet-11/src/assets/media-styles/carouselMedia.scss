@@ -1,0 +1,37 @@
+@media (max-width: 480px) {
+  .carousel {
+    height: 255px;
+    .carousel-button.left {
+      img {
+        height: 20px;
+      }
+    }
+    .carousel-button.right {
+      img {
+        height: 20px;
+      }
+    }
+    .carousel-counter {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .carousel {
+    height: 320px;
+    .carousel-button.left {
+      img {
+        height: 40px;
+      }
+    }
+    .carousel-button.right {
+      img {
+        height: 40px;
+      }
+    }
+    .carousel-counter {
+      display: none;
+    }
+  }
+}
