@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../components/banner.jsx'
 import bannerImage from '../assets/images/banner-about.png'
 import Collapse from '../components/collapse.jsx'
+import '../assets/styles/about.scss'
 
 function About() {
   const collapses = [
@@ -32,7 +33,7 @@ function About() {
   ]
 
   return (
-    <div>
+    <div className="banner-main">
       <Banner imageSrc={bannerImage} altText="image d'un décor de montagne" />
       {collapses.map((collapse, index) => (
         <Collapse

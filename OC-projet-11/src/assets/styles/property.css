@@ -33,10 +33,7 @@
   flex-direction: column;
   align-items: end;
 }
-.property-container
-  .property-info
-  .property-info-host
-  .property-info-host-name {
+.property-container .property-info .property-info-host .property-info-host-name {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,22 +41,14 @@
   text-align: end;
   margin-bottom: 18px;
 }
-.property-container
-  .property-info
-  .property-info-host
-  .property-info-host-name
-  h2 {
+.property-container .property-info .property-info-host .property-info-host-name h2 {
   width: 50%;
   margin-right: 10px;
   font-size: 18px;
   font-weight: 400;
   color: #ff6060;
 }
-.property-container
-  .property-info
-  .property-info-host
-  .property-info-host-name
-  img {
+.property-container .property-info .property-info-host .property-info-host-name img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
